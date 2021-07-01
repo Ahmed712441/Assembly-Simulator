@@ -1,0 +1,10 @@
+ADDI $t0,$t0,300
+ADDI $t1,$t1,300
+BEQ $t1,$t0,2
+ADD $t3,$t2,$t0
+ADDI $t2,$t3,500
+ADD $t4,$t3,$t2
+SUB $t0,$t2,$t3
+SUB $t0,$t2,$t3
+LW $t0,0($t3)
+SW $t0,0($t3)
